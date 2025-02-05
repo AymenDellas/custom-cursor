@@ -1,0 +1,18 @@
+/* Set background color and hide default cursor */
+html {
+  background-color: rgb(63, 38, 0);
+  cursor: none; /* Hides the default cursor */
+}
+
+/* Style the custom cursor */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* Makes it circular */
+  pointer-events: none; /* Prevents interaction */
+  position: fixed; /* Keeps it positioned relative to the viewport */
+  top: 0;
+  left: 0;
+  background-color: white; /* Cursor color */
+  transition: all 0.2s ease-out; /* Smooth transition */
+}
